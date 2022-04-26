@@ -1,0 +1,141 @@
+:root{
+    --orange-color: #DA722C ;
+    --blue-color: #057ADA ; 
+    --white-blue: #E8F7FB ;
+    --green-blue : #023047 ;
+    --black-color : #070917;
+
+}
+/*for all the elements we will use the *  */
+* ,
+* ::after,
+*::before {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: "Poppins" ,"sans-serif" ;
+}
+.wrapper {
+    max-width: 1134px;
+    margin: 0 auto;
+}
+/*buttons*/
+.btn{
+    padding: 16px 32px;
+    border-radius: 24px;
+    color:white;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none ;
+    position: relative;
+    font-size: 16px;
+
+
+}
+.btn.dark {
+    background:var( --green-blue) ;
+}
+.btn.light {
+    background: var(--orange-color);
+}
+.btn.enroll-icone::before {
+    /*here we want to ad the images to the btn of enrollement so we used content*/
+    content: url("images/Pencil.svg");
+    position: absolute;    
+    left: 32px;
+    top: 20.5px;
+    transform:translateY(-20.5);
+}
+.btn.enroll-icone {
+    padding-left: 60px;
+}
+/*header*/
+header {
+    
+    background: linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
+    height : 100vh;
+    width: 100%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 1134px;
+    top: 36px;
+    z-index: 100;
+    
+}
+nav .logo {
+    font-family: 'Raleway','sans-serif';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+    margin: 0;
+}
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Poppins' ,'sans-serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+/*hero section*/
+.hero-section {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+    
+}
+.hero-section .left h1 {
+    font-family: 'Raleway','sans-serif';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 125%;
+    /* or 62px */
+    color: #FFFFFF;
+    margin-bottom: 0;
+
+}
+.hero-section .left p {
+    font-family: 'Poppins','sans-serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    /* or 32px */
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.hero-section .left {
+    width:457px ;
+}
+.hero-section .right img{
+  
+    height: 520px;
+  
+
+}
+
+/*achievments cards */
+.achievement-cards {
+
+} 

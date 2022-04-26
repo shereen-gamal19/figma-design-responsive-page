@@ -1,0 +1,12 @@
+this figma file and we will convert it to html and css file 
+first we explore the figma file and see the version of the webpage on desktop , smart phones , tablets .....
+1- start with html file 
+2- make the following files :- styles.css , main.js , index.html and images 
+3- in html file link the css and js files to the html file 
+4- explore the figma file and get its fonts from google fonts and then copy the link in html file
+5- in css file set the variables of the colors in the figma file in the root ( get the colors from figma design) 
+6- we exported all the images from the figma design as a svg and the icons from the desktop , smart phones ,tablets ,......
+7-we will start from the header in the html file
+8 - we will write the header tag and we will set it as max width according to the figma design
+9- make a desktop navigation menu and add the classes
+8-we will complete constracting the html file
